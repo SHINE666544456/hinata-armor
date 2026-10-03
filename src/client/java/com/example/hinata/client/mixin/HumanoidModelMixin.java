@@ -22,7 +22,7 @@ public abstract class HumanoidModelMixin {
     @Shadow @Final public ModelPart leftArm;
 
     // 1.0 = normal armor thickness. Lower = thinner. Try 0.7 to 0.9.
-    private static final float SLIM = 0.8f;
+    private static final float SLIM = 0.7f;
 
     @Inject(method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/HumanoidRenderState;)V",
             at = @At("RETURN"))
