@@ -1,4 +1,4 @@
-package com.example.hinata.mixin;
+package com.example.hinata.client.mixin;
 
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
